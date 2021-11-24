@@ -1,0 +1,12 @@
+#quick-access-messages {
+  .panel-body-bottom:not(.custom-pm-panel-body-bottom) {
+    // this hides the default buttons
+    display: none;
+  }
+  .custom-pm-panel-body-bottom {
+    // these are the new buttons
+    button {
+      margin-left: 0.5em;
+    }
+  }
+}
