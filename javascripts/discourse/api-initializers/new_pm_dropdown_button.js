@@ -1,5 +1,9 @@
 import { withPluginApi } from "discourse/lib/plugin-api";
 
+// now that the revamped user menu is default
+// this initializer can be removed at some point
+// when most sites have upgraded
+
 export default {
   name: "custom-pm-dropdown-button",
   initialize() {
