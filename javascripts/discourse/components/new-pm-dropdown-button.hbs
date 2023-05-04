@@ -3,7 +3,7 @@
       @class="btn-default btn-icon-text new-pm-dropdown-button"
       @icon="envelope"
       @label="user.new_private_message"
-      @title="user.new_private_message"
+      @title={{if (theme-setting 'hide_button_text') "user.new_private_message"}} 
       @action={{this.openComposerCloseMenu}}
     /> 
 {{/if}}
