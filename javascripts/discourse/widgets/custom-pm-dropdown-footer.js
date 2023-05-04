@@ -2,6 +2,10 @@ import Composer from "discourse/models/composer";
 import { createWidget } from "discourse/widgets/widget";
 import { getOwner } from "discourse-common/lib/get-owner";
 
+// now that the revamped user menu is default
+// this widget can be removed at some point
+// when most sites have upgraded
+
 export default createWidget("custom-pm-dropdown-footer", {
   tagName: "div.panel-body-bottom.custom-pm-panel-body-bottom",
   buildKey: () => `custom-pm-dropdown-footer`,
