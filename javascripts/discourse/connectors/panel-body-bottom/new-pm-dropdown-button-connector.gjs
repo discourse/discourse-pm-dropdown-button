@@ -1,6 +1,7 @@
+/* eslint-disable ember/no-classic-components */
 import Component from "@ember/component";
 import { tagName } from "@ember-decorators/component";
-import { eq } from "truth-helpers";
+import { eq } from "discourse/truth-helpers";
 import NewPmDropdownButton from "../../components/new-pm-dropdown-button";
 
 @tagName("")
